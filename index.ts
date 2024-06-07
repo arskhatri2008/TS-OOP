@@ -26,6 +26,7 @@ class Product {
     }
 }
 
+
 /*
 let laptop = new Product('Laptop', 2000)
 laptop.display()
@@ -36,7 +37,7 @@ mobile.display()
 
 // Inheritance
 
-class Electronic extends Product {
+class Electronic extends Product{
     warranty!: number
         constructor(name:string, price:number, warranty:number){
             super(name, price)
